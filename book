@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="gun.css">
+</head>
+<body>
+    <header>
+        <h1>Book recomendation system</h1>
+        <p>Your one-stop shop for all things books!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="C:\Users\syedf\Desktop\html\quiz.html">catalouge</a></li>
+            <li><a href="C:\Users\syedf\Desktop\html\login.html">login</a></li>
+            <li><a href="C:\Users\syedf\Desktop\html\pay.html">payment</a></li>
+        </ul>
+    </nav>
+     
+    <h2 style="text-align: center; background-color: darkslategray; color: ghostwhite;">featured-books</h2>
+    <section class="featured-books">
+        <hr>
+        <table>
+            <tr>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\OIP (1).jpg" alt="Book 1" width="200" >
+                    <h3>Book Title 1</h3>
+                    <p>Author: Author 1</p>
+                    <p>Price: $19.99</p>
+                </td>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\Historical+Fiction+Where+the+Light+Enters+by+Sara+Donati.jpg" alt="Book 3" width="200">
+                    <h3>Book Title 1</h3>
+                    <p>Author: Author 1</p>
+                    <p>Price: $19.99</p>
+                </td>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\OIP (2).jpg" alt="Book 1" width="200" >
+                    <h3>Book Title 1</h3>
+                    <p>Author: Author 1</p>
+                    <p>Price: $19.99</p>
+                </td>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\OIP.jpg" alt="Book 2" width="200">
+                    <h3>Book Title 2</h3>
+                    <p>Author: Author 2</p>
+                    <p>Price: $14.99</p>
+                </td>
+                <!-- Add more book entries as needed -->
+                <!-- Repeat the structure for additional books -->
+            </tr>
+            <tr>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\tmg-article_tall.jpg" alt="Book 1" width="200">
+                    <h3>Book Title 1</h3>
+                    <p>Author: Author 1</p>
+                    <p>Price: $19.99</p>
+                </td>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\page_1.webp" alt="Book 2" width="200">
+                    <h3>Book Title 2</h3>
+                    <p>Author: Author 2</p>
+                    <p>Price: $14.99</p>
+                </td>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\OIP (3).jpg" alt="Book 2" width="200">
+                    <h3>Book Title 2</h3>
+                    <p>Author: Author 2</p>
+                    <p>Price: $14.99</p>
+                </td>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\OIP (4).jpg" alt="Book 2" width="200">
+                    <h3>Book Title 2</h3>
+                    <p>Author: Author 2</p>
+                    <p>Price: $14.99</p>
+                </td>
+                <!-- Add more book entries as needed -->
+                <!-- Repeat the structure for additional books -->
+            </tr>
+            <tr>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\download.jpg" alt="Book 1" width="200">
+                    <h3>Book Title 1</h3>
+                    <p>Author: Author 1</p>
+                    <p>Price: $19.99</p>
+                </td>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\The-Great-Unexpected-1.jpg" alt="Book 2" width="200">
+                    <h3>Book Title 2</h3>
+                    <p>Author: Author 2</p>
+                    <p>Price: $14.99</p>
+                </td>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\The-Handmaids-Tale-1.jpg" alt="Book 2" width="200">
+                    <h3>Book Title 2</h3>
+                    <p>Author: Author 2</p>
+                    <p>Price: $14.99</p>
+                </td>
+                <td>
+                    <img src="C:\Users\syedf\Desktop\The-Book-Thief-1.jpg" alt="Book 2" width="200">
+                    <h3>Book Title 2</h3>
+                    <p>Author: Author 2</p>
+                    <p>Price: $14.99</p>
+                </td>
+                <!-- Add more book entries as needed -->
+                <!-- Repeat the structure for additional books -->
+            </tr>
+            <!-- Add more rows for additional books -->
+        </table>
+    </section>
+<footer>
+        <h3>about us</h3>
+        <p> we believe local bookstores are essential community hubs that foster culture, curiosity, and a love of reading. Our mission is simple: to help local, independent bookstores thrive in the age of ecommerce. Every purchase on our site financially supports independent bookstores worldwide. We’re committed to their success, and over 80% of our profit margin goes directly to these cherished bookshops. </p>
+    </footer>
+</body>
+</html>
