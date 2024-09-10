@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Quiz</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <button id="scrolltoTop" onclick="topFunction()" type="button">&#8593;</button>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">Books catlog</p>
+                <p class="subtitle">Best of your choice</p>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. language</p>
+                    <img src="C:\Users\syedf\Desktop\download (2).jpg" alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q1" id="q1a" value="A">
+                        <label for="q1a">english</label> 
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="q1b" value="B">
+                        <label for="q1b">hindi</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="q1c" value="C">
+                        <label for="q1c">telugu</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="q1d" value="D">
+                        <label for="q1d">urdu</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q1" id="q1e" value="E" checked>
+                        <label for="q1e">Hidden</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>2.field</p>
+                    <img src="C:\Users\syedf\Desktop\OIP (6).jpg" alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q2" id="q2A" value="A">
+                        <label for="q2A">comics</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="q2B" value="B">
+                        <label for="q2B">novel</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="q2C" value="C">
+                        <label for="q2C">fiction</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="q2D" value="D">
+                        <label for="q2D">horror</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q2" id="q2E" value="E" checked>
+                        <label for="q2E">story</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>3.subject</p>
+                    <img src="C:\Users\syedf\Desktop\download.jpg" alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q3" id="q3A" value="A">
+                        <label for="q3A">&lt;science and technology&lt;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="q3B" value="B">
+                        <label for="q3B">&lt;history</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="q3C" value="C">
+                        <label for="q3C">&lt;geography</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="q3D" value="D">
+                        <label for="q3D">biology</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q3" id="q3E" value="E" checked>
+                        <label for="q3E">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>4.hot topics</p>
+                    <img src="C:\Users\syedf\Desktop\page_1.webp" alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q4" id="q4A" value="A">
+                        <label for="q4A">current affairs and crimes</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="q4B" value="B">
+                        <label for="q4B">economic growth and development</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="q4C" value="C">
+                        <label for="q4C">advancment in technology</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="q4D" value="D">
+                        <label for="q4D">cyber crime in city</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q4" id="q4E" value="E" checked>
+                        <label for="q4E">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>5. sports magzine</p>
+                    <img src="C:\Users\syedf\Desktop\OIP (9).jpg" alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q5" id="q5A" value="A">
+                        <label for="q5A">world cup</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="q5B" value="B">
+                        <label for="q5B">t20 finals</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="q5C" value="C">
+                        <label for="q5C">star sports</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="q5D" value="D">
+                        <label for="q5D">best of all time</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q5" id="q5E" value="E" checked>
+                        <label for="q5E">Hidden</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>6. top selling</p>
+                    <img src="C:\Users\syedf\Desktop\OIP (10).jpg" alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q6" id="q6A" value="A">
+                        <label for="q6A">goat days</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" id="q6B" value="B">
+                        <label for="q6B">designing data</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" id="q6C" value="C">
+                        <label for="q6C">Death ends</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" id="q6D" value="D">
+                        <label for="q6D">trading</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q6" id="q6E" value="E" checked>
+                        <label for="q6E">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>7.new release </p>
+                    <img src="C:\Users\syedf\Desktop\OIP (4).jpg" alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q7" id="q7A" value="A">
+                        <label for="q7A">generative ai</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" id="q7B" value="B">
+                        <label for="q7B">empire reowned</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" id="q7C" value="C">
+                        <label for="q7C">epic money</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" id="q7D" value="D">
+                        <label for="q7D">oswaal</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q7" id="q7E" value="E" checked>
+                        <label for="q7E">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>8.authors</p>
+                    <img src="C:\Users\syedf\Desktop\OIP (1).jpg"alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q8" id="q8A" value="A">
+                        <label for="q8A">stephon king </label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" id="q8B" value="B">
+                        <label for="q8B">leo tolstoy</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" id="q8C" value="C">
+                        <label for="q8C">r l stine</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" id="q8D" value="D">
+                        <label for="q8D">j k rowling</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q8" id="q8E" value="E" checked>
+                        <label for="q8E">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>9. publishers</p>
+                    <img src="C:\Users\syedf\Desktop\download (2).jpg" alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q9" id="q9A" value="A">
+                        <label for="q9A">harper collins</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" id="q9B" value="B">
+                        <label for="q9B">simon switch</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" id="q9C" value="C">
+                        <label for="q9C">richmine</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" id="q9D" value="D">
+                        <label for="q9D">lon devis</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q9" id="q9E" value="E" checked>
+                        <label for="q9E">Hidden</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>10.company</p>
+                    <img src="C:\Users\syedf\Desktop\The-Book-Thief-1.jpg" alt="Book 3" width="100" >
+                    <div class="option">
+                        <input type="radio" name="q10" id="q10A" value="A">
+                        <label for="q10A">oxford</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" id="q10B" value="B">
+                        <label for="q10B">pearson</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" id="q10C" value="C">
+                        <label for="q10C">lerner</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" id="q10D" value="D">
+                        <label for="q10D">macmillan</label>
+                    </div>
+                    <div class="option" hidden>
+                        <input type="radio" name="q10" id="q10E" value="E" checked>
+                        <label for="q10E">Hidden</label>
+                    </div>
+                </div>
+
+                <div class="result hide">
+                    <div class="message" id="message"></div>
+                    <p></p>
+                    <p class="reload">
+                        <button onclick="document.location.reload(true)">Try Again?</button>
+                    </p>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
